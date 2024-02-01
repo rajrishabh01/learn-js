@@ -6,13 +6,13 @@ window.onload = function() {
 }
 
 function myFunction() {
-    return () => document.getElementById('demo').textContent = 'Moused over!';
+    document.getElementById('demo').textContent = 'Moused over!';
 }
 
 function mySecondFunction() {
-    return () => document.getElementById('demo').textContent = 'Clicked!';
+    document.getElementById('demo').textContent = 'Clicked!';
 }
 
 function myThirdFunction() {
-    return () => document.getElementById('demo').textContent = 'Moused out!';
+    document.getElementById('demo').textContent = 'Moused out!';
 }
